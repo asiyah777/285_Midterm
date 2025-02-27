@@ -3,7 +3,7 @@ public class factorialcalculator {
         int num = 10;  // Predefined number to calculate factorial
         int factorial = 1;
 
-        for (int i = x; x <= num; x++) { // Loop through numbers
+        for (int x = 0; x <= num; x++) { // Loop through numbers
             factorial *= x;  // Multiply current number
         }
 
